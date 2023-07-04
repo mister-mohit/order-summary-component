@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: url("./images/pattern-background-desktop.svg") no-repeat ;
+    background: url("./pattern-background-desktop.svg") no-repeat ;
     background-size: 1600px 300px;
     background-color: hsla(225, 100%, 98%);
 }
