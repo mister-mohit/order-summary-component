@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: url("./images/pattern-background-desktop.svg") no-repeat ;
+    background-size: 1600px 300px;
+    background-color: hsla(225, 100%, 98%);
+}
+.container{
+    background-color:white;
+    border:none;
+    width : 350px;
+    border-radius: 10px;
+}
+.image-container > img{
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 15px;
+}
+
+.detail-container >h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:hsla(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.detail-container>p{
+    color:hsla(224, 23%, 55%);
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.pricing{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color:hsl(225, 100%, 96%);
+    border:none;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.pricing>img{
+    height:40px;
+    margin: 15px;
+}
+
+.plan{
+    margin-left:10px;
+    color:hsla(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.pricing >span{
+    margin-left: auto;
+    margin-right:10px;
+    color:hsla(245, 75%, 52%);
+}
+
+.plan > h2{
+    font-size:16px;
+    color:hsla(223, 47%, 23%);
+}
+.payment-button{
+    width: 100%;
+    padding: 10px;
+    background-color:hsla(245, 75%, 52%);
+    border-radius: 10px;
+    color:hsla(225, 100%, 98%);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+p.cancel{
+    font-size: 14px;
+    color:hsla(223, 47%,42%);
+    font-weight: 900;
+}
+
